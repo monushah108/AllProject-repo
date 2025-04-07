@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+
+body{
+  font-family: "Nunito", sans-serif;
+}
+
+.btn-plus::after{
+   content: '+';
+   position: absolute;
+   top: -3%;
+   right: 3%;
+   font-weight: bold;
+   color: red;
+   font-size: 20px;
+}
