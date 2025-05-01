@@ -1,12 +1,46 @@
-# React + Vite
+# 🧭 Interactive Pokémon Data Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a responsive React application built with Vite and styled using Tailwind CSS. It fetches data from the [PokeAPI](https://pokeapi.co/) and allows users to search and filter through the first 150 Pokémon.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🔍 **Search Pokémon by Name** (Real-time filtering)
+- 🧪 **Filter Pokémon by Type** (Fire, Water, Grass, etc.)
+- 🎴 **Card layout** displaying:
+  - Name
+  - Sprite image
+  - Type(s)
+  - ID Number
+- ⏳ **Loading and Empty States**
+- 📱 **Mobile Responsive Design**
+- ⚛️ **Built with React + Vite**
+- 🎨 **Styled with Tailwind CSS**
 
-## Expanding the ESLint configuration
+## 🔧 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/) (with Hooks)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [PokeAPI](https://pokeapi.co/) for Pokémon data
+
+## 🚀 Live Demo
+
+> 🌐 **Live App**: [https://unique-figolla-0d2f40.netlify.app/](https://unique-figolla-0d2f40.netlify.app/)  
+> 📂 **GitHub Repo**: [https://unique-figolla-0d2f40.netlify.app/](https://unique-figolla-0d2f40.netlify.app/)
+
+## 📦 Installation & Setup
+
+To run the project locally:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/pokemon-data-explorer.git
+
+# 2. Navigate into the project folder
+cd pokemon-data-explorer
+
+# 3. Install dependencies
+npm install
+
+# 4. Start the development server
+npm run dev
